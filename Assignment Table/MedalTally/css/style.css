@@ -1,0 +1,95 @@
+body{
+    font-family: 'Arial', sans-serif; /* Choose your desired font family */
+    background-color: #f2f2f2; /* Set the background color */    
+    margin: 0 auto; /* Center the table horizontally */
+}
+.table-container{
+    padding: 15px;
+    margin: 15px;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid #a4a2a2;
+    vertical-align: middle;
+}
+caption{
+    padding: 15px;
+    font-size: 50px;
+    font-weight: bold;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+  }
+thead th{
+    width: 12%;
+}
+.th-img{
+    width: 40%;
+}
+.gold{
+    background-color: gold;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.silver{
+    background-color: silver;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.brown{
+    background-color: rgb(243, 12, 12);
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.one{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: gold;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.two{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: silver;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.three{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(243, 12, 12);
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    left: 8px;
+}
+img{
+    height: 20px;
+}
+/* tr{
+    margin: 20px;
+} */
+td{
+    background-color: white;
+}
+.total-b{
+    font-weight: bold;
+}
+.plus{
+    border: 1px solid #cccccc;
+    padding: 5px;
+}

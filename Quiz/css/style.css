@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar .nav-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main-header {
+    text-align: center;
+    padding: 2rem;
+    background: #f4f4f4;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .card {
+    background: #e0e0e0;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .gaming-library {
+    padding: 2rem;
+    background: #ddd;
+    text-align: center;
+  }
+  
+  .footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .navbar .nav-links {
+      flex-direction: column;
+      width: 100%;
+      margin-top: 1rem;
+    }
+  
+    .card-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  

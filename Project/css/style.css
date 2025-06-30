@@ -1,0 +1,416 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    padding: 1rem 5rem;
+}
+
+/* Navigation Bar */
+.nav-container{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.logo{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li{
+    margin: 0 1rem;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.nav-links a:hover{
+    color: #dd9715;
+    text-decoration: underline;
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-text{
+    flex: 1;
+    padding: 5rem 0;
+}
+
+.header-text h1{
+    color: #dd9715;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.header-text p{
+    color: #fff;
+    font-size: 4rem;                                             /* 1rem = 16px  ==>  4rem = 64px */
+    margin-bottom: 1rem;
+}
+
+em{
+    color: #dd9715;
+}
+
+.header-btn1{
+    padding: 0.6rem;
+    background-color: #dd9715;
+    border: 2px solid #dd9715;
+    border-radius: 1rem;
+    margin: 0 1rem;
+}
+
+.header-btn2{
+    color: #fff;
+    padding: 0.6rem;
+    background-color: #000;
+    border: 2px solid #1b1b1b;
+    border-radius: 1rem;
+}
+
+.header-image{
+    flex: 1;
+}
+
+.header-image img{
+    height: 60vh;
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 0px 0.2rem;
+}
+
+/* About Section */
+.about {
+    background-color: #000;
+    padding: 1rem;
+}
+    
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+    
+.about-image {
+    flex: 1;
+    position: relative;
+}
+    
+.about-image img {
+    height: 80vh;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+    
+.about-content {
+    flex: 1;
+    color: #fff;
+}
+    
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+    
+.about-content p {
+    margin-bottom: 30px;
+}
+    
+.about-info {
+    margin-bottom: 30px;
+}
+    
+.about-info-item {
+    display: flex;
+    margin-bottom: 10px;
+}
+    
+.about-info-item strong {
+    min-width: 120px;
+    font-weight: 600;
+}
+
+.number{
+    color: #dd9715;
+}
+
+.btn{
+    padding: 2rem;
+}
+
+.btn-primary{
+    padding: 0.6rem;
+    text-decoration: none;
+    color: #000;
+    background-color: #dd9715;
+    border: 2px solid #dd9715;
+    border-radius: 1rem;
+}
+
+/* Resume Section */
+.resume-section {
+    text-align: center;
+    margin: 1rem;
+}
+  
+.section-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+  
+.section-subtitle {
+    max-width: 600px;
+    margin: 0 auto 50px;
+    font-size: 14px;
+    color: #fff;
+}
+  
+  .resume-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+  }
+  
+  .resume-card {
+    background: #1d1d1d;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .resume-card h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+  
+  .resume-card h3 span {
+    color: #f8ab24;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  
+  .resume-card h4 {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+.resume-card p {
+    font-size: 13px;
+    color: #fff;
+}
+  
+.download-btn  {
+    display: inline-block;
+    padding: 0.6rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #dd9715;
+    border: 2px solid #dd9715;
+    border-radius: 1rem;
+}
+  
+.download-btn a:hover {
+    background-color: #e59e1c;
+}
+
+/* Services Section */
+
+.services-section {
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .section-subtitle {
+    max-width: 600px;
+    margin: 0 auto 50px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  
+  .service-card {
+    background: #1d1d1d;
+    padding: 40px 20px;
+    border-radius: 10px;
+    transition: background 0.3s;
+  }
+  
+  .service-card img {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .service-card h3 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: relative;
+  }
+  
+  .service-card h3::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #ffab00;
+    margin: 10px auto 0;
+  }
+  
+.service-card:hover {
+    background: #292929;
+}
+
+/* My Skill Section */
+.skills-section {
+    text-align: center;
+    margin: 15px;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .section-subtitle {
+    max-width: 600px;
+    margin: 0 auto 50px;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+.skills-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px 50px;
+  }
+  
+  .skill {
+    text-align: left;
+  }
+  
+  .skill-name {
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .skill-percent {
+    float: right;
+    color: #fff;
+    margin-top: -20px;
+    font-weight: 600;
+  }
+  
+  .skill-bar {
+    background-color: #2e2e2e;
+    height: 6px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .skill-progress {
+    height: 6px;
+    background-color: #ffab00;
+    width: 0;
+    transition: width 1s ease-in-out;
+  }
+
+
+
+/* Footer Section */
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer-about, .footer-links, .footer-services, .footer-info{
+    flex: 1;
+    padding: 0 1rem;
+}
+
+.footer-about h3, .footer-links h3, .footer-services h3, .footer-info h3{
+    color: #fff;
+    padding-bottom: 1rem; 
+    font-size: 1.2rem;   
+}
+
+.footer-about p{
+    text-align: justify;
+    color: #fff;
+    padding-right: 2.5rem;
+}
+
+.footer-contact p {
+    color: #fff;
+    margin: 1rem 0;
+}
+
+.footer-icon{
+    margin: 1rem; 
+}
+
+.footer-icon i{
+    padding: 5px;
+}
+
+.footer-links ul, .footer-services ul {
+    list-style: none;
+}
+
+.footer-links li, .footer-services li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links a, .footer-services a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover, .footer-services a:hover {
+    color: #007bff;
+}
+
